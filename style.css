@@ -1,0 +1,89 @@
+*{
+    padding:0;
+    margin:0
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#containerDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+#mainContainer{
+    width:80%;
+    height: 100vh;
+    padding-top: 60px;
+    padding-left: 70px;
+    padding-right: 70px;
+    background-color: aqua;
+}
+
+button{
+    height:35px;
+    width:120px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+input{
+    width:250px;
+    height: 33px;
+    font-family: sans-serif;
+    font-size: 24px;
+}
+#create{
+    height:50px;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#update{
+    height:50px;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+ 
+#delete{
+    height:50px;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    padding-left: 18px;
+}
+
+#show{
+    height:50px;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    padding-left: 18px;
+    margin-bottom: 30px;
+}
+
+#booksContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.cards{
+    width:230px;
+    height:300px;
+    border:1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
